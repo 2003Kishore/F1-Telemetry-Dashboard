@@ -246,18 +246,18 @@ def main():
         
         session_code = session_type.split()[0]
         
-        if st.button("🔄 Load Session", type="primary"):
+        if st.button(" Load Session", type="primary"):
             with st.spinner("Loading session data..."):
                 try:
                     session = load_session_data(year, race, session_code)
                     st.session_state.session_data = session
-                    st.success("✅ Session loaded!")
+                    st.success(" Session loaded!")
                 except Exception as e:
                     st.error(f"Error loading session: {str(e)}")
     
     # Main content
     if st.session_state.session_data is None:
-        st.info("👈 Select a session from the sidebar to begin analysis")
+        st.info(" Select a session from the sidebar to begin analysis")
         
         # Show features
         col1, col2, col3 = st.columns(3)
