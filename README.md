@@ -17,7 +17,7 @@ This project provides race engineers with a professional-grade tool to analyze F
 
 ##  Key Features
 
-### 1. **Tyre Degradation Analysis** 🔧
+### 1. **Tyre Degradation Analysis** 
 - Calculate degradation rates per stint (seconds/lap)
 - Compare compound performance (Soft, Medium, Hard)
 - Predict optimal stint length
