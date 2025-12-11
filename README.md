@@ -361,10 +361,9 @@ fetcher.save_session_data(session, output_dir='data')
 
 ##   Contact
 
-**Developer**: Your Name  
-**Email**: your.email@example.com  
-**LinkedIn**: [Your Profile]  
-**GitHub**: [@YourUsername]
+**Developer**: Kishore Katari  
+**Email**: 2338kishore@gmail.com  
+**GitHub**: 2003kishore
 
 ##   License
 
@@ -380,7 +379,7 @@ This project is for educational and portfolio purposes.
 
 ##  Star this project if it helps you!
 
-**Built for race engineers, by a data scientist** 🏎️💨
+**Built for race engineers, by a data scientist** �
 
 *This is a portfolio project demonstrating real-world data engineering, machine learning, and dashboard development skills applicable to motorsports analytics roles.*
 
