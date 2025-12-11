@@ -1,4 +1,4 @@
-# 🏎️ F1 Telemetry Performance Analysis Dashboard
+#  F1 Telemetry Performance Analysis Dashboard
 
 **An interactive dashboard for race engineers to analyze F1 telemetry data, detect tyre degradation, calculate fuel-corrected pace, and optimize stint strategies.**
 
@@ -31,7 +31,7 @@ This project provides race engineers with a professional-grade tool to analyze F
 - Identify genuine pace advantage
 - Stint-by-stint pace evolution
 
-### 3. **Stint Performance Analysis** 
+### 3. **Stint Performance Analysis**
 - Evaluate stint execution quality (0-100 score)
 - Strategy comparison (stops, compounds, lengths)
 - Performance ratings: Excellent/Good/Average/Poor
@@ -73,7 +73,7 @@ streamlit run app.py
 
 4. **Open browser**: Dashboard will open at `http://localhost:8501`
 
-## How to Use
+## 📖 How to Use
 
 ### Loading a Session
 
@@ -115,14 +115,14 @@ streamlit run app.py
 - AI recommendations
 - Strategy evaluation
 
-####  Telemetry Comparison
+###  Telemetry Comparison
 - Choose two drivers
 - Select lap (or use fastest)
 - Compare speed/throttle/brake
 - See lap time delta
 - Analyze driving style differences
 
-##  Project Structure
+##   Project Structure
 
 ```
 Quali-Race/
@@ -271,7 +271,7 @@ score = (length_score * 0.3) + (consistency_score * 0.4) + (deg_score * 0.3)
 - **Optimal hard stint**: 30-40+ laps
 - **Undercut window**: Degradation > 0.1s/lap
 
-##  Performance Metrics
+##   Performance Metrics
 
 ### Dashboard Performance
 - **Load time**: 5-10 seconds (first load)
@@ -359,14 +359,14 @@ fetcher.save_session_data(session, output_dir='data')
 > - Created stint performance scoring system with AI recommendations
 > - Designed professional UI serving 5+ analysis modules with <2s load times
 
-##  Contact
+##   Contact
 
 **Developer**: Your Name  
 **Email**: your.email@example.com  
 **LinkedIn**: [Your Profile]  
 **GitHub**: [@YourUsername]
 
-##  License
+##   License
 
 This project is for educational and portfolio purposes.
 
