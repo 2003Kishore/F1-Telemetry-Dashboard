@@ -1,26 +1,26 @@
-# 🏎️ F1 Telemetry Analysis Dashboard - Project Overview
+#  F1 Telemetry Analysis Dashboard - Project Overview
 
-## ✅ PROJECT COMPLETE!
+##  PROJECT COMPLETE!
 
 **You now have a production-ready F1 telemetry analysis dashboard that race engineers could actually use!**
 
 ---
 
-## 🎯 What You Built
+##  What You Built
 
 ### **Interactive Dashboard for F1 Race Engineers**
 
 A professional-grade web application that:
-1. ✅ Fetches **real F1 telemetry data** using FastF1 API
-2. ✅ Analyzes **tyre degradation** with ML models
-3. ✅ Calculates **fuel-corrected pace** for true car performance
-4. ✅ Evaluates **stint strategies** with AI scoring
-5. ✅ Compares **driver telemetry** (speed, throttle, brake)
-6. ✅ Provides **actionable insights** for race engineers
+1.  Fetches **real F1 telemetry data** using FastF1 API
+2.  Analyzes **tyre degradation** with ML models
+3.  Calculates **fuel-corrected pace** for true car performance
+4.  Evaluates **stint strategies** with AI scoring
+5.  Compares **driver telemetry** (speed, throttle, brake)
+6.  Provides **actionable insights** for race engineers
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Quick Start (3 commands):
 ```bash
@@ -41,7 +41,7 @@ streamlit run app.py
 
 ---
 
-## 📊 Key Features
+##  Key Features
 
 ### 1. **Tyre Degradation Detection** 🔧
 **What it does**: Analyzes how tyres lose performance over a stint
@@ -66,7 +66,7 @@ Stint 1 (SOFT):
 
 ---
 
-### 2. **Fuel-Corrected Pace Analysis** ⛽
+### 2. **Fuel-Corrected Pace Analysis** 
 **What it does**: Removes fuel weight effects to show true car pace
 
 **How it works**:
@@ -119,7 +119,7 @@ Recommendations:
 
 ---
 
-### 4. **Interactive Telemetry Comparison** 🎯
+### 4. **Interactive Telemetry Comparison** 
 **What it does**: Compare speed/throttle/brake between any two drivers
 
 **Visualizations**:
@@ -137,7 +137,7 @@ Recommendations:
 
 ---
 
-### 5. **Race Engineer Dashboard** 📊
+### 5. **Race Engineer Dashboard** 
 **What it does**: Professional UI for real-time analysis
 
 **Features**:
@@ -149,7 +149,7 @@ Recommendations:
 
 ---
 
-## 🏗️ Technical Architecture
+##  Technical Architecture
 
 ### Project Structure
 ```
@@ -198,7 +198,7 @@ score = (length_score * 0.3) +
 
 ---
 
-## 📈 Example Analyses
+## Example Analyses
 
 ### Example 1: 2024 Bahrain GP - Verstappen Tyre Strategy
 
@@ -261,39 +261,39 @@ Consistency: VER 0.231s, HAM 0.289s
 
 ---
 
-## 🎓 Skills Demonstrated
+##  Skills Demonstrated
 
-### ✅ Data Engineering
+###  Data Engineering
 - Real-time API integration (FastF1)
 - Data caching and optimization
 - Large dataset handling (telemetry is 200+ rows/lap)
 - ETL pipeline design
 
-### ✅ Machine Learning
+###  Machine Learning
 - RANSAC regression for outlier-robust models
 - Linear regression for trend analysis
 - Feature engineering (fuel load, tyre age)
 - Model validation
 
-### ✅ Data Science
+###  Data Science
 - Time series analysis
 - Statistical modeling
 - Comparative analytics
 - Performance metrics design
 
-### ✅ Software Engineering
+###  Software Engineering
 - Modular architecture (4 core modules)
 - Clean code principles (type hints, docstrings)
 - Error handling and edge cases
 - Production-ready code quality
 
-### ✅ Visualization & UX
+###  Visualization & UX
 - Interactive dashboards (Streamlit)
 - Professional Plotly charts
 - Multi-tab interface design
 - Real-time updates
 
-### ✅ Domain Expertise
+###  Domain Expertise
 - F1 racing knowledge
 - Tyre management strategies
 - Fuel effect modeling
@@ -301,7 +301,7 @@ Consistency: VER 0.231s, HAM 0.289s
 
 ---
 
-## 💼 Resume Bullet Points
+##  Resume Bullet Points
 
 ### For Data Scientist Roles:
 
@@ -332,42 +332,42 @@ Consistency: VER 0.231s, HAM 0.289s
 
 ---
 
-## 🌟 What Makes This Special
+##  What Makes This Special
 
-### 1. **Real-World Application** ⭐⭐⭐⭐⭐
+### 1. **Real-World Application** 
 - Not synthetic data - **actual F1 telemetry**
 - Race engineers could **genuinely use** this tool
 - Solves **real problems** in motorsports
 
-### 2. **Interactive Dashboard** ⭐⭐⭐⭐⭐
+### 2. **Interactive Dashboard** 
 - Professional Streamlit UI
 - 5 comprehensive analysis modules
 - Real-time visualizations
 - Production-ready performance
 
-### 3. **Technical Depth** ⭐⭐⭐⭐⭐
+### 3. **Technical Depth** 
 - ML models (RANSAC regression)
 - Domain-specific algorithms (fuel correction)
 - Advanced visualizations (telemetry comparison)
 - Performance optimization
 
-### 4. **Production Quality** ⭐⭐⭐⭐⭐
+### 4. **Production Quality** 
 - Clean, modular code
 - Comprehensive documentation
 - Error handling
 - Caching for speed
 
-### 5. **Resume Impact** ⭐⭐⭐⭐⭐
+### 5. **Resume Impact** 
 - Impressive for data roles
 - Shows end-to-end skills
 - Clear business value
 - Portfolio centerpiece
 
-**Overall Rating**: ⭐⭐⭐⭐⭐ (5/5 - Exceptional!)
+**Overall Rating**:  (5/5 - Exceptional!)
 
 ---
 
-## 📊 Project Metrics
+##  Project Metrics
 
 ### Code Quality
 - **Lines of Code**: 1,740 (production Python)
@@ -392,23 +392,23 @@ Consistency: VER 0.231s, HAM 0.289s
 
 ---
 
-## 🚀 Next Steps
+##  Next Steps
 
 ### To Showcase This Project:
 
-1. **Run It Locally** ✅
+1. **Run It Locally** 
    ```bash
    streamlit run app.py
    ```
 
-2. **Take Screenshots** 📸
+2. **Take Screenshots** 
    - Dashboard overview
    - Tyre degradation chart
    - Fuel-corrected pace comparison
    - Telemetry comparison
    - Stint performance scores
 
-3. **Add to GitHub** 🐙
+3. **Add to GitHub** 
    ```bash
    git init
    git add .
