@@ -9,10 +9,15 @@ import numpy as np
 from pathlib import Path
 from typing import Optional, Dict, List, Tuple
 import warnings
+import os
 warnings.filterwarnings('ignore')
 
+# Create cache directory if it doesn't exist
+cache_dir = 'cache'
+os.makedirs(cache_dir, exist_ok=True)
+
 # Enable FastF1 cache
-fastf1.Cache.enable_cache('cache')
+fastf1.Cache.enable_cache(cache_dir)
 
 
 class F1DataFetcher:

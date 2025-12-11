@@ -6,7 +6,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)
 ![F1](https://img.shields.io/badge/Formula%201-Data%20Analysis-E10600.svg)
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project provides race engineers with a professional-grade tool to analyze F1 telemetry data in real-time. Using the **FastF1 API**, it fetches actual race data and provides actionable insights on:
 
@@ -15,44 +15,44 @@ This project provides race engineers with a professional-grade tool to analyze F
 - **Stint Performance** - Evaluate strategy effectiveness and execution
 - **Telemetry Comparison** - Compare drivers lap-by-lap with speed/throttle/brake data
 
-## ✨ Key Features
+##  Key Features
 
-### 1. **Tyre Degradation Analysis** 🔧
+### 1. **Tyre Degradation Analysis** 
 - Calculate degradation rates per stint (seconds/lap)
 - Compare compound performance (Soft, Medium, Hard)
 - Predict optimal stint length
 - Detect performance "cliff" (sudden degradation)
 - Consistency metrics
 
-### 2. **Fuel-Corrected Pace** ⛽
+### 2. **Fuel-Corrected Pace** 
 - Adjust lap times for fuel load (~0.035s/kg)
 - True car pace comparison between drivers
 - Remove fuel weight effects from analysis
 - Identify genuine pace advantage
 - Stint-by-stint pace evolution
 
-### 3. **Stint Performance Analysis** 📈
+### 3. **Stint Performance Analysis** 
 - Evaluate stint execution quality (0-100 score)
 - Strategy comparison (stops, compounds, lengths)
 - Performance ratings: Excellent/Good/Average/Poor
 - AI-generated recommendations
 - Undercut opportunity detection
 
-### 4. **Interactive Telemetry Comparison** 🎯
+### 4. **Interactive Telemetry Comparison** 
 - Speed traces lap-by-lap
 - Throttle application analysis
 - Braking points and pressure
 - Distance-based comparison
 - Fastest lap vs fastest lap
 
-### 5. **Race Engineer Dashboard** 📊
+### 5. **Race Engineer Dashboard** 
 - Real-time data visualization
 - Multi-driver comparison
 - Session overview (Practice, Qualifying, Race)
 - Export-ready metrics
 - Professional UI/UX
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 
@@ -73,7 +73,7 @@ streamlit run app.py
 
 4. **Open browser**: Dashboard will open at `http://localhost:8501`
 
-## 📖 How to Use
+## How to Use
 
 ### Loading a Session
 
@@ -88,41 +88,41 @@ streamlit run app.py
 
 ### Dashboard Tabs
 
-#### 📊 Overview
+####  Overview
 - Event information
 - Total laps and drivers
 - Top 10 fastest laps table
 - Session statistics
 
-#### 🔧 Tyre Degradation
+####  Tyre Degradation
 - Select driver
 - View degradation per stint
 - Compare compound performance
 - See consistency metrics
 - Get detailed stint data
 
-#### ⛽ Fuel-Corrected Pace
+####  Fuel-Corrected Pace
 - Compare two drivers
 - Fuel-adjusted lap times
 - Pace delta calculation
 - Consistency comparison
 - Faster driver identification
 
-#### 📈 Stint Analysis
+####  Stint Analysis
 - Select driver
 - View lap time evolution
 - Stint performance scores
 - AI recommendations
 - Strategy evaluation
 
-#### 🎯 Telemetry Comparison
+####  Telemetry Comparison
 - Choose two drivers
 - Select lap (or use fastest)
 - Compare speed/throttle/brake
 - See lap time delta
 - Analyze driving style differences
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 Quali-Race/
@@ -139,7 +139,7 @@ Quali-Race/
 └── README.md                   # This file
 ```
 
-## 🔬 Technical Details
+##  Technical Details
 
 ### Data Source
 - **FastF1 API**: Official F1 timing data
@@ -180,7 +180,7 @@ corrected_time = lap_time - (laps_remaining * 1.6 * 0.035)
 score = (length_score * 0.3) + (consistency_score * 0.4) + (deg_score * 0.3)
 ```
 
-## 📊 Example Use Cases
+##  Example Use Cases
 
 ### 1. **Race Strategy Planning**
 *"Should we extend this stint or pit now?"*
@@ -214,7 +214,7 @@ score = (length_score * 0.3) + (consistency_score * 0.4) + (deg_score * 0.3)
 - Look at telemetry braking points
 - Correlate with tyre life
 
-## 🎓 Skills Demonstrated
+##  Skills Demonstrated
 
 ### Data Engineering
 - [x] API integration (FastF1)
@@ -252,7 +252,7 @@ score = (length_score * 0.3) + (consistency_score * 0.4) + (deg_score * 0.3)
 - [x] Race strategy
 - [x] Telemetry interpretation
 
-## 💡 Key Insights
+##  Key Insights
 
 ### Tyre Degradation
 - **Soft tyres**: ~0.08-0.12 s/lap degradation
@@ -271,7 +271,7 @@ score = (length_score * 0.3) + (consistency_score * 0.4) + (deg_score * 0.3)
 - **Optimal hard stint**: 30-40+ laps
 - **Undercut window**: Degradation > 0.1s/lap
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 ### Dashboard Performance
 - **Load time**: 5-10 seconds (first load)
@@ -284,7 +284,7 @@ score = (length_score * 0.3) + (consistency_score * 0.4) + (deg_score * 0.3)
 - **Fuel correction**: ±0.1s per lap
 - **Stint scoring**: Validated against expert analysis
 
-## 🔧 Advanced Usage
+##  Advanced Usage
 
 ### Custom Analysis
 
@@ -316,7 +316,7 @@ fetcher.save_session_data(session, output_dir='data')
 # - Monaco_Race_weather.csv
 ```
 
-## 🚦 Troubleshooting
+##  Troubleshooting
 
 ### Issue: Session won't load
 **Solution**: Check internet connection, FastF1 servers may be slow
@@ -330,7 +330,7 @@ fetcher.save_session_data(session, output_dir='data')
 ### Issue: Missing data for driver
 **Solution**: Driver may have DNF'd or data not available
 
-## 📚 Dependencies
+##  Dependencies
 
 - **fastf1**: F1 data API
 - **streamlit**: Dashboard framework
@@ -339,7 +339,7 @@ fetcher.save_session_data(session, output_dir='data')
 - **numpy**: Numerical computing
 - **scikit-learn**: ML algorithms
 
-## 🎯 Future Enhancements
+##  Future Enhancements
 
 - [ ] Real-time race updates
 - [ ] Predictive pit stop timing
@@ -350,7 +350,7 @@ fetcher.save_session_data(session, output_dir='data')
 - [ ] Team radio integration
 - [ ] Weather effect modeling
 
-## 💼 Resume Bullet Points
+##  Resume Bullet Points
 
 > **F1 Telemetry Analysis Dashboard** | Python, Streamlit, FastF1, Plotly
 > - Built interactive dashboard for race engineers to analyze F1 telemetry data in real-time
@@ -359,18 +359,18 @@ fetcher.save_session_data(session, output_dir='data')
 > - Created stint performance scoring system with AI recommendations
 > - Designed professional UI serving 5+ analysis modules with <2s load times
 
-## 📞 Contact
+##  Contact
 
 **Developer**: Your Name  
 **Email**: your.email@example.com  
 **LinkedIn**: [Your Profile]  
 **GitHub**: [@YourUsername]
 
-## 📝 License
+##  License
 
 This project is for educational and portfolio purposes.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **FastF1**: Amazing API for F1 data
 - **Formula 1**: Data and inspiration
@@ -378,7 +378,7 @@ This project is for educational and portfolio purposes.
 
 ---
 
-## ⭐ Star this project if it helps you!
+##  Star this project if it helps you!
 
 **Built for race engineers, by a data scientist** 🏎️💨
 

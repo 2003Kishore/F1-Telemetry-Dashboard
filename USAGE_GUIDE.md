@@ -1,6 +1,6 @@
-# 📘 F1 Telemetry Dashboard - Usage Guide
+#  F1 Telemetry Dashboard - Usage Guide
 
-## 🚀 Getting Started (5 minutes)
+##  Getting Started (5 minutes)
 
 ### Step 1: Install Dependencies
 ```bash
@@ -27,13 +27,13 @@ Dashboard opens automatically at: `http://localhost:8501`
    - Race: `Bahrain`
    - Session: `R (Race)`
 
-2. Click **"🔄 Load Session"**
+2. Click **" Load Session"**
 
 3. Wait 5-10 seconds (first load downloads data)
 
-4. ✅ You'll see "Session loaded!" when ready
+4.  You'll see "Session loaded!" when ready
 
-## 📊 Dashboard Tour
+##  Dashboard Tour
 
 ### Tab 1: Overview
 **What it shows**: Race summary and fastest laps
@@ -47,7 +47,7 @@ Dashboard opens automatically at: `http://localhost:8501`
 
 ---
 
-### Tab 2: Tyre Degradation 🔧
+### Tab 2: Tyre Degradation 
 **What it shows**: How tyres lose performance over a stint
 
 **How to use**:
@@ -70,7 +70,7 @@ Dashboard opens automatically at: `http://localhost:8501`
 
 ---
 
-### Tab 3: Fuel-Corrected Pace ⛽
+### Tab 3: Fuel-Corrected Pace 
 **What it shows**: True car pace without fuel weight effects
 
 **How to use**:
@@ -94,7 +94,7 @@ Dashboard opens automatically at: `http://localhost:8501`
 
 ---
 
-### Tab 4: Stint Analysis 📈
+### Tab 4: Stint Analysis 
 **What it shows**: How well each stint was executed
 
 **How to use**:
@@ -123,7 +123,7 @@ Dashboard opens automatically at: `http://localhost:8501`
 
 ---
 
-### Tab 5: Telemetry Comparison 🎯
+### Tab 5: Telemetry Comparison 
 **What it shows**: Detailed speed/throttle/brake comparison
 
 **How to use**:
@@ -148,7 +148,7 @@ Dashboard opens automatically at: `http://localhost:8501`
 
 ---
 
-## 💡 Real-World Scenarios
+##  Real-World Scenarios
 
 ### Scenario 1: Race Strategy Call
 **Question**: "Should Verstappen pit now (Lap 15 on Softs) or extend?"
@@ -202,7 +202,7 @@ Dashboard opens automatically at: `http://localhost:8501`
 
 ---
 
-## 🔧 Tips & Tricks
+##  Tips & Tricks
 
 ### Tip 1: Data Loading
 - **First load**: 5-10 seconds (downloads from FastF1)
@@ -235,7 +235,7 @@ Dashboard opens automatically at: `http://localhost:8501`
 
 ---
 
-## 🎯 Advanced Features
+##  Advanced Features
 
 ### Custom Fuel Effect
 Edit `src/fuel_correction.py`:
@@ -259,7 +259,7 @@ All F1 circuits supported by FastF1:
 
 ---
 
-## ❓ Troubleshooting
+##  Troubleshooting
 
 ### Problem: "Session won't load"
 **Causes**:
@@ -306,7 +306,7 @@ All F1 circuits supported by FastF1:
 
 ---
 
-## 📈 Understanding the Metrics
+##  Understanding the Metrics
 
 ### Degradation Rate
 - **What**: Lap time loss per lap (seconds/lap)
@@ -342,7 +342,7 @@ All F1 circuits supported by FastF1:
 
 ---
 
-## 🎓 Learning Resources
+##  Learning Resources
 
 ### Understanding F1 Data
 - [FastF1 Documentation](https://docs.fastf1.dev/)
@@ -360,7 +360,7 @@ All F1 circuits supported by FastF1:
 
 ---
 
-## 💬 Need Help?
+##  Need Help?
 
 1. **Check README.md** - Comprehensive guide
 2. **Review this guide** - Step-by-step instructions
@@ -369,7 +369,7 @@ All F1 circuits supported by FastF1:
 
 ---
 
-**Happy Analyzing!** 🏎️💨
+**Happy Analyzing!** 
 
 *Built for race engineers who want data-driven decisions*
 
