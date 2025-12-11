@@ -1,0 +1,14 @@
+[server]
+headless = true
+enableCORS = false
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+
+# Force English locale
+[client]
+toolbarMode = "minimal"
+

@@ -25,6 +25,11 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Force English language
+import os
+os.environ['LANG'] = 'en_US.UTF-8'
+os.environ['LC_ALL'] = 'en_US.UTF-8'
+
 # Custom CSS
 st.markdown("""
 <style>
